@@ -1,11 +1,16 @@
+from __future__ import print_function
+
 import types
 import inspect
 
-import Tkinter
+try:
+    import Tkinter
+except ImportError:
+    import tkinter as Tkinter
 
 widget_bases = set(inspect.getmro(Tkinter.Widget)+
                    inspect.getmro(Tkinter.Canvas)+
-                   (Tkinter.Wm,))
+                   (Tkinter.Wm, Tkinter.Tk))
 
 indice = []
 for nome in dir(Tkinter):
@@ -21,6 +26,6 @@ for nome in dir(Tkinter):
 indice.sort()
 
 for len_mro, nome, bases in indice:
-    print len_mro, nome.ljust(12), ''.join(
-        [b.__name__.ljust(12) for b in bases])
+    print(format(len_mro,'2'), nome.ljust(12), '->' if bases else '' , 
+          ' '.join([b.__name__.ljust(12) for b in bases]))
 
