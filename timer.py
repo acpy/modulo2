@@ -9,12 +9,11 @@ class Timer(Frame):
         self.mostrador = Label(self, width=2, anchor='e',
                                font='Helvetica 120 bold',)
         self.mostrador.grid(column=0, row=0, sticky='nswe')
-        self.bt_reset = Button(self, text='Start', command=self.start)
-        self.bt_reset.grid(column=0, row=1, sticky='we')
+        self.bt_start = Button(self, text='Start', command=self.start)
+        self.bt_start.grid(column=0, row=1, sticky='we')
         self.atualizar_mostrador()
         
     def atualizar_mostrador(self):
-        self.mostrador['foreground'] = 'black' if self.agora else 'red'
         self.mostrador['text'] = str(self.agora)            
         
     def start(self):

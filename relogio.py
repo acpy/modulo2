@@ -4,8 +4,8 @@ from time import strftime
 relogio = Tkinter.Label()
 
 relogio.pack()
-relogio['font'] = 'Helvetica 120 bold'
 relogio['text'] = strftime('%H:%M:%S')
+relogio['font'] = 'Helvetica 120 bold'
 
 def tictac():
     agora = strftime('%H:%M:%S')
