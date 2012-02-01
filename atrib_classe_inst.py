@@ -24,6 +24,15 @@ Mas a classe continua funcionando para criar novas instâncias:
     >>> oo.a, oo.b, oo.c
     (77, 9, 'xyz')
 
+Em caso de necessidade (isso é raro) sempre é possível acessar os 
+métodos direto na classe, passando uma instância como argumento
+explícito:
+
+    >>> X.c(o)
+    'BLA'
+    >>> X.__init__(o, 42, 'ufa')
+    >>> o.a, o.b, o.c
+    (77, 42, 'ufa')
     
 """
 
