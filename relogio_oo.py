@@ -15,5 +15,6 @@ class Relogio(Tkinter.Label):
             self['text'] = agora
         self.after(100, self.tictac)
 
-rel = Relogio()
-rel.mainloop()
+if __name__=='__main__':
+    rel = Relogio()
+    rel.mainloop()
