@@ -1,0 +1,492 @@
+{
+  "SBSP3": {
+    "tipo": "ON NM", 
+    "acao": "SABESP", 
+    "qtd": "3,14325193854", 
+    "part": "0,282", 
+    "setor": "Utilidade P\u00fabl / \u00c1gua Saneamento"
+  }, 
+  "HYPE3": {
+    "tipo": "ON NM", 
+    "acao": "HYPERMARCAS", 
+    "qtd": "107,95255374400", 
+    "part": "1,875", 
+    "setor": "Cons N C\u00edclico/Diversos"
+  }, 
+  "CIEL3": {
+    "tipo": "ON NM", 
+    "acao": "CIELO", 
+    "qtd": "15,22206521048", 
+    "part": "1,272", 
+    "setor": "Financeiro e Outros/Servi\u00e7os Financeiros Diversos"
+  }, 
+  "TIMP3": {
+    "tipo": "ON NM", 
+    "acao": "TIM PART S/A", 
+    "qtd": "71,06372634151", 
+    "part": "1,057", 
+    "setor": "Telecomunica\u00e7\u00e3o / Telefonia M\u00f3vel"
+  }, 
+  "RENT3": {
+    "tipo": "ON NM", 
+    "acao": "LOCALIZA", 
+    "qtd": "13,22062132276", 
+    "part": "0,588", 
+    "setor": "Diversos"
+  }, 
+  "BISA3": {
+    "tipo": "ON NM", 
+    "acao": "BROOKFIELD", 
+    "qtd": "85,12552703704", 
+    "part": "0,862", 
+    "setor": "Const e Transp / Constr e Engenh"
+  }, 
+  "BRKM5": {
+    "tipo": "PNA N1", 
+    "acao": "BRASKEM", 
+    "qtd": "33,23182752892", 
+    "part": "0,788", 
+    "setor": "Mats B\u00e1sicos / Qu\u00edmicos"
+  }, 
+  "EMBR3": {
+    "tipo": "ON NM", 
+    "acao": "EMBRAER", 
+    "qtd": "26,93206897985", 
+    "part": "0,499", 
+    "setor": "Bens Indls / Mat Transporte"
+  }, 
+  "GFSA3": {
+    "tipo": "ON NM", 
+    "acao": "GAFISA", 
+    "qtd": "239,49599373483", 
+    "part": "1,984", 
+    "setor": "Const e Transp / Constr e Engenh"
+  }, 
+  "OGXP3": {
+    "tipo": "ON NM", 
+    "acao": "OGX PETROLEO", 
+    "qtd": "216,59533179831", 
+    "part": "5,711", 
+    "setor": "Petr\u00f3leo, G\u00e1s e Biocombust\u00edveis"
+  }, 
+  "LAME4": {
+    "tipo": "PN I11", 
+    "acao": "LOJAS AMERIC", 
+    "qtd": "41,00697569320", 
+    "part": "1,077", 
+    "setor": "Consumo C\u00edclico / Com\u00e9rcio"
+  }, 
+  "MRFG3": {
+    "tipo": "ON NM", 
+    "acao": "MARFRIG", 
+    "qtd": "53,51461486598", 
+    "part": "0,670", 
+    "setor": "Cons N B\u00e1sico / Alimentos Processados"
+  }, 
+  "CPLE6": {
+    "tipo": "PNB N1", 
+    "acao": "COPEL", 
+    "qtd": "8,49206704922", 
+    "part": "0,524", 
+    "setor": "Utilidade P\u00fabl / Energ El\u00e9trica"
+  }, 
+  "SANB11": {
+    "tipo": "UNT N2", 
+    "acao": "SANTANDER BR", 
+    "qtd": "41,51166488577", 
+    "part": "1,091", 
+    "setor": "Financ e Outros / Interms Financs"
+  }, 
+  "TMAR5": {
+    "tipo": "PNA", 
+    "acao": "TELEMAR N L", 
+    "qtd": "1,54506891228", 
+    "part": "0,103", 
+    "setor": "Telecomunica\u00e7\u00e3o / Telefonia Fixa"
+  }, 
+  "VAGR3": {
+    "tipo": "ON NM", 
+    "acao": "V-AGRO", 
+    "qtd": "776,19744767030", 
+    "part": "0,433", 
+    "setor": "Cons N Ciclico/Agropecu\u00e1ria"
+  }, 
+  "CYRE3": {
+    "tipo": "ON NM", 
+    "acao": "CYRELA REALT", 
+    "qtd": "73,35404089231", 
+    "part": "1,945", 
+    "setor": "Const e Transp / Constr e Engenh"
+  }, 
+  "BBDC4": {
+    "tipo": "PN ED N1", 
+    "acao": "BRADESCO", 
+    "qtd": "62,15334109938", 
+    "part": "3,020", 
+    "setor": "Financ e Outros / Interms Financs"
+  }, 
+  "VIVT4": {
+    "tipo": "PN", 
+    "acao": "TELEF BRASIL", 
+    "qtd": "10,32361524702", 
+    "part": "0,761", 
+    "setor": "Telecomunica\u00e7\u00e3o / Telefonia Fixa"
+  }, 
+  "ELET6": {
+    "tipo": "PNB N1", 
+    "acao": "ELETROBRAS", 
+    "qtd": "11,25781062752", 
+    "part": "0,438", 
+    "setor": "Utilidade P\u00fabl / Energ El\u00e9trica"
+  }, 
+  "JBSS3": {
+    "tipo": "ON NM", 
+    "acao": "JBS", 
+    "qtd": "70,25639080684", 
+    "part": "0,702", 
+    "setor": "Cons N B\u00e1sico / Alimentos Processados"
+  }, 
+  "BVMF3": {
+    "tipo": "ON NM", 
+    "acao": "BMFBOVESPA", 
+    "qtd": "185,51372555278", 
+    "part": "3,355", 
+    "setor": "Financeiro e Outros/Servi\u00e7os Financeiros Diversos"
+  }, 
+  "ELET3": {
+    "tipo": "ON N1", 
+    "acao": "ELETROBRAS", 
+    "qtd": "18,86491195901", 
+    "part": "0,510", 
+    "setor": "Utilidade P\u00fabl / Energ El\u00e9trica"
+  }, 
+  "CMIG4": {
+    "tipo": "PN N1", 
+    "acao": "CEMIG", 
+    "qtd": "17,49965095877", 
+    "part": "0,956", 
+    "setor": "Utilidade P\u00fabl / Energ El\u00e9trica"
+  }, 
+  "RDCD3": {
+    "tipo": "ON NM", 
+    "acao": "REDECARD", 
+    "qtd": "26,19561355180", 
+    "part": "1,298", 
+    "setor": "Financeiro e Outros/Servi\u00e7os Financeiros Diversos"
+  }, 
+  "MRVE3": {
+    "tipo": "ON NM", 
+    "acao": "MRV", 
+    "qtd": "88,90437241554", 
+    "part": "1,938", 
+    "setor": "Const e Transp / Constr e Engenh"
+  }, 
+  "KLBN4": {
+    "tipo": "PN N1", 
+    "acao": "KLABIN S/A", 
+    "qtd": "38,01007722474", 
+    "part": "0,457", 
+    "setor": "Mats B\u00e1sicos / Madeira e Papel"
+  }, 
+  "GOLL4": {
+    "tipo": "PN N2", 
+    "acao": "GOL", 
+    "qtd": "37,50273167283", 
+    "part": "0,744", 
+    "setor": "Const e Transp / Transporte"
+  }, 
+  "USIM3": {
+    "tipo": "ON N1", 
+    "acao": "USIMINAS", 
+    "qtd": "13,33523062479", 
+    "part": "0,343", 
+    "setor": "Mats B\u00e1sicos / Sid Metalurgia"
+  }, 
+  "LLXL3": {
+    "tipo": "ON NM", 
+    "acao": "LLX LOG", 
+    "qtd": "72,58890879079", 
+    "part": "0,406", 
+    "setor": "Const e Transp / Transporte"
+  }, 
+  "CRUZ3": {
+    "tipo": "ON", 
+    "acao": "SOUZA CRUZ", 
+    "qtd": "13,74851705347", 
+    "part": "0,506", 
+    "setor": "Cons N C\u00edclico / Fumo"
+  }, 
+  "CCRO3": {
+    "tipo": "ON NM", 
+    "acao": "CCR SA", 
+    "qtd": "39,79034153153", 
+    "part": "0,798", 
+    "setor": "Const e Transp / Transporte"
+  }, 
+  "AMBV4": {
+    "tipo": "PN", 
+    "acao": "AMBEV", 
+    "qtd": "12,26307492835", 
+    "part": "1,234", 
+    "setor": "Cons N C\u00edclico / Bebidas"
+  }, 
+  "HGTX3": {
+    "tipo": "ON NM", 
+    "acao": "CIA HERING", 
+    "qtd": "12,81854217251", 
+    "part": "0,838", 
+    "setor": "Consumo C\u00edclico / Tecid Vest Cal\u00e7"
+  }, 
+  "ITSA4": {
+    "tipo": "PN N1", 
+    "acao": "ITAUSA", 
+    "qtd": "117,93183766496", 
+    "part": "2,136", 
+    "setor": "Financ e Outros / Interms Financs"
+  }, 
+  "BRFS3": {
+    "tipo": "ON NM", 
+    "acao": "BRF FOODS", 
+    "qtd": "21,34190470192", 
+    "part": "1,153", 
+    "setor": "Cons N B\u00e1sico / Alimentos Processados"
+  }, 
+  "BTOW3": {
+    "tipo": "ON NM", 
+    "acao": "B2W VAREJO", 
+    "qtd": "25,90081230099", 
+    "part": "0,422", 
+    "setor": "Consumo C\u00edclico / Com\u00e9rcio"
+  }, 
+  "MMXM3": {
+    "tipo": "ON NM", 
+    "acao": "MMX MINER", 
+    "qtd": "100,12610426943", 
+    "part": "1,311", 
+    "setor": "Mats B\u00e1sicos / Minera\u00e7\u00e3o"
+  }, 
+  "BRAP4": {
+    "tipo": "PN N1", 
+    "acao": "BRADESPAR", 
+    "qtd": "14,62705009623", 
+    "part": "0,813", 
+    "setor": "Financ e Outros / Holdings Divers"
+  }, 
+  "LREN3": {
+    "tipo": "ON NM", 
+    "acao": "LOJAS RENNER", 
+    "qtd": "13,16237766062", 
+    "part": "1,218", 
+    "setor": "Consumo C\u00edclico / Com\u00e9rcio"
+  }, 
+  "NATU3": {
+    "tipo": "ON NM", 
+    "acao": "NATURA", 
+    "qtd": "15,79763445429", 
+    "part": "0,954", 
+    "setor": "Cons N C\u00edclico / Pr Pessoal Limp"
+  }, 
+  "LIGT3": {
+    "tipo": "ON NM", 
+    "acao": "LIGHT S/A", 
+    "qtd": "11,18806308253", 
+    "part": "0,466", 
+    "setor": "Utilidade P\u00fabl / Energ El\u00e9trica"
+  }, 
+  "DTEX3": {
+    "tipo": "ON NM", 
+    "acao": "DURATEX", 
+    "qtd": "31,60548425448", 
+    "part": "0,497", 
+    "setor": "Mats B\u00e1sicos / Madeira e Papel"
+  }, 
+  "PDGR3": {
+    "tipo": "ON NM", 
+    "acao": "PDG REALT", 
+    "qtd": "284,32778056819", 
+    "part": "3,315", 
+    "setor": "Const e Transp / Constr e Engenh"
+  }, 
+  "UGPA3": {
+    "tipo": "ON NM", 
+    "acao": "ULTRAPAR", 
+    "qtd": "9,85883434692", 
+    "part": "0,554", 
+    "setor": "Financ e Outros / Holdings Divers"
+  }, 
+  "USIM5": {
+    "tipo": "PNA N1", 
+    "acao": "USIMINAS", 
+    "qtd": "128,30644134108", 
+    "part": "2,326", 
+    "setor": "Mats B\u00e1sicos / Sid Metalurgia"
+  }, 
+  "ITUB4": {
+    "tipo": "PN ED N1", 
+    "acao": "ITAUUNIBANCO", 
+    "qtd": "78,44215521792", 
+    "part": "4,335", 
+    "setor": "Financ e Outros / Interms Financs"
+  }, 
+  "CPFE3": {
+    "tipo": "ON NM", 
+    "acao": "CPFL ENERGIA", 
+    "qtd": "8,68575017991", 
+    "part": "0,345", 
+    "setor": "Utilidade P\u00fabl / Energ El\u00e9trica"
+  }, 
+  "RSID3": {
+    "tipo": "ON NM", 
+    "acao": "ROSSI RESID", 
+    "qtd": "86,23319057814", 
+    "part": "1,426", 
+    "setor": "Const e Transp / Constr e Engenh"
+  }, 
+  "TAMM4": {
+    "tipo": "PN N2", 
+    "acao": "TAM S/A", 
+    "qtd": "6,78798673109", 
+    "part": "0,402", 
+    "setor": "Const e Transp / Transporte"
+  }, 
+  "GOAU4": {
+    "tipo": "PN N1", 
+    "acao": "GERDAU MET", 
+    "qtd": "26,30027750627", 
+    "part": "0,902", 
+    "setor": "Mats B\u00e1sicos / Sid Metalurgia"
+  }, 
+  "GGBR4": {
+    "tipo": "PN N1", 
+    "acao": "GERDAU", 
+    "qtd": "114,29941406389", 
+    "part": "3,123", 
+    "setor": "Mats B\u00e1sicos / Sid Metalurgia"
+  }, 
+  "FIBR3": {
+    "tipo": "ON NM", 
+    "acao": "FIBRIA", 
+    "qtd": "34,17463567292", 
+    "part": "0,769", 
+    "setor": "Mats B\u00e1sicos / Madeira e Papel"
+  }, 
+  "CSAN3": {
+    "tipo": "ON NM", 
+    "acao": "COSAN", 
+    "qtd": "15,44468568842", 
+    "part": "0,684", 
+    "setor": "Cons N B\u00e1sico / Alimentos Processados"
+  }, 
+  "DASA3": {
+    "tipo": "ON NM", 
+    "acao": "DASA", 
+    "qtd": "21,58108706911", 
+    "part": "0,571", 
+    "setor": "Consumo n\u00e3o C\u00edclico/Sa\u00fade"
+  }, 
+  "ELPL4": {
+    "tipo": "PN N2", 
+    "acao": "ELETROPAULO", 
+    "qtd": "10,75622875598", 
+    "part": "0,618", 
+    "setor": "Utilidade P\u00fabl / Energ El\u00e9trica"
+  }, 
+  "TNLP4": {
+    "tipo": "PN", 
+    "acao": "TELEMAR", 
+    "qtd": "21,10254782215", 
+    "part": "0,553", 
+    "setor": "Telecomunica\u00e7\u00e3o / Telefonia Fixa"
+  }, 
+  "VALE3": {
+    "tipo": "ON N1", 
+    "acao": "VALE", 
+    "qtd": "42,51590944401", 
+    "part": "2,999", 
+    "setor": "Mats B\u00e1sicos / Minera\u00e7\u00e3o"
+  }, 
+  "BBAS3": {
+    "tipo": "ON NM", 
+    "acao": "BRASIL", 
+    "qtd": "75,90081451797", 
+    "part": "3,220", 
+    "setor": "Financ e Outros / Interms Financs"
+  }, 
+  "BRML3": {
+    "tipo": "ON NM", 
+    "acao": "BR MALLS PAR", 
+    "qtd": "29,19456073444", 
+    "part": "0,913", 
+    "setor": "Financ e Outros / Explor Im\u00f3veis"
+  }, 
+  "CESP6": {
+    "tipo": "PNB N1", 
+    "acao": "CESP", 
+    "qtd": "9,22336965663", 
+    "part": "0,471", 
+    "setor": "Utilidade P\u00fabl / Energ El\u00e9trica"
+  }, 
+  "VALE5": {
+    "tipo": "PNA N1", 
+    "acao": "VALE", 
+    "qtd": "139,35039063034", 
+    "part": "9,423", 
+    "setor": "Mats B\u00e1sicos / Minera\u00e7\u00e3o"
+  }, 
+  "PETR3": {
+    "tipo": "ON", 
+    "acao": "PETROBRAS", 
+    "qtd": "65,47334736729", 
+    "part": "2,717", 
+    "setor": "Petr\u00f3leo, G\u00e1s e Biocombust\u00edveis"
+  }, 
+  "PETR4": {
+    "tipo": "PN", 
+    "acao": "PETROBRAS", 
+    "qtd": "219,38140231615", 
+    "part": "8,331", 
+    "setor": "Petr\u00f3leo, G\u00e1s e Biocombust\u00edveis"
+  }, 
+  "TNLP3": {
+    "tipo": "ON", 
+    "acao": "TELEMAR", 
+    "qtd": "4,55735240550", 
+    "part": "0,140", 
+    "setor": "Telecomunica\u00e7\u00e3o / Telefonia Fixa"
+  }, 
+  "CSNA3": {
+    "tipo": "ON", 
+    "acao": "SID NACIONAL", 
+    "qtd": "58,71080565382", 
+    "part": "1,652", 
+    "setor": "Mats B\u00e1sicos / Sid Metalurgia"
+  }, 
+  "TRPL4": {
+    "tipo": "PN N1", 
+    "acao": "TRAN PAULIST", 
+    "qtd": "1,81379583751", 
+    "part": "0,153", 
+    "setor": "Utilidade P\u00fabl / Energ El\u00e9trica"
+  }, 
+  "BRTO4": {
+    "tipo": "PN", 
+    "acao": "BRASIL TELEC", 
+    "qtd": "18,71986091537", 
+    "part": "0,330", 
+    "setor": "Telecomunica\u00e7\u00e3o / Telefonia Fixa"
+  }, 
+  "ALLL3": {
+    "tipo": "ON NM", 
+    "acao": "ALL AMER LAT", 
+    "qtd": "52,33252159741", 
+    "part": "0,831", 
+    "setor": "Const e Transp / Transporte"
+  }, 
+  "PCAR4": {
+    "tipo": "PN N1", 
+    "acao": "P.ACUCAR-CBD", 
+    "qtd": "7,47670404067", 
+    "part": "0,862", 
+    "setor": "Cons N C\u00edclico / Com\u00e9rcio Distr."
+  }
+}
