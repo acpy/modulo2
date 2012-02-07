@@ -6,6 +6,23 @@ Uma carta::
     >>> zape = Carta(4, 'paus')
     >>> zape
     <4 de paus>
+    >>> b = Baralho()
+    >>> len(b)
+    52
+    >>> b[0]
+    <A de paus>
+    >>> b[-1]
+    <K de ouros>
+    >>> b[:3]
+    [<A de paus>, <2 de paus>, <3 de paus>]
+    >>> for c in b: print c #doctest:+ELLIPSIS
+    <A de paus>
+    ...
+    <K de ouros>
+    >>> b[0], b[1] = b[1], b[0]
+    >>> b[:3]
+    [<2 de paus>, <A de paus>, <3 de paus>]
+     
 
 """
 
