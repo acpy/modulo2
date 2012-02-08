@@ -46,8 +46,13 @@ class Baralho(object):
         return len(self.cartas)
         
     def __getitem__(self, pos):
-        return self.cartas[pos]
-        
+        return self.cartas[pos]   
+    
+    def __setitem__(self, pos, carta):
+        if isinstance(carta, Carta):
+            self.cartas[pos] = carta
+        else:
+            raise TypeError('o baralho somente aceita cartas')
         
 if __name__=='__main__':
     import doctest
