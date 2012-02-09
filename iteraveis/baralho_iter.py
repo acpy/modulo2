@@ -1,11 +1,5 @@
 '''
     >>> b = Baralho()
-    >>> b[0]
-    <A de copas>
-    >>> b[:3]
-    [<A de copas>, <2 de copas>, <3 de copas>]
-    >>> b[-3:]
-    [<J de paus>, <Q de paus>, <K de paus>]
     >>> for carta in b:                             # doctest:+ELLIPSIS
     ...     print carta
     <A de copas>
@@ -24,7 +18,6 @@
     >>>
 
 '''
-
 
 from random import shuffle
 
@@ -46,6 +39,7 @@ class Baralho(object):
                         for v in self.valores]
 
     def __getitem__(self, pos):
+        raise NotImplementedError()
         return self.cartas[pos]
 
     def __len__(self):
