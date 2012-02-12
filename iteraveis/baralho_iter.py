@@ -8,7 +8,7 @@
     <4 de copas>
     <5 de copas>
     ...
-    >>> for carta in reversed(b):                   # doctest:+ELLIPSIS
+    >>> for carta in reversed(b):                   # doctest:+SKIP
     ...     print carta
     <K de paus>
     <Q de paus>
@@ -18,8 +18,6 @@
     >>>
 
 '''
-
-from random import shuffle
 
 class Carta(object):
     def __init__(self, valor, naipe):
@@ -44,3 +42,36 @@ class Baralho(object):
 
     def __len__(self):
         return len(self.cartas)
+        
+    def __iter__(self):
+        return IteradorDeBaralho(self)    
+        
+class IteradorDeBaralho(object):
+    
+    def __init__(self, baralho):
+        self.__baralho = baralho
+        self.__posicao_atual = 0
+        
+    def next(self):
+        if self.__posicao_atual == len(self.__baralho):
+            raise StopIteration()
+        atual = self.__baralho.cartas[self.__posicao_atual]
+        self.__posicao_atual += 1
+        return atual
+        
+    def __iter__(self):
+        return self
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+        
