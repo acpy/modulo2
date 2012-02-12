@@ -30,7 +30,9 @@ class MarcaFoto(Frame):
             self.marca_ativa = self.canvas.create_oval(evento.x, evento.y, evento.x, evento.y,
                 outline='green', width=5)
         else:
-            self.coords = self.canvas.coords(self.marca_ativa)
+            coords = [int(i) for i in self.canvas.coords(self.marca_ativa)]
+            self.coords['text'] = coords
+            print coords
             self.marca_ativa = None
 
 root = Tk()
