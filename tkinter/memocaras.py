@@ -8,7 +8,9 @@ from Tkinter import Tk, Canvas, PhotoImage, Frame, Label
 from Tkinter import HIDDEN, NORMAL, EW, W, NW
 from ttk import Button
 
-from random import choice
+from random import shuffle
+
+NOME_ARQ_FOTO = 'turma1-640x480.gif'
 
 pessoas = [
     ('Daniel', [38, 183, 103, 251]),
@@ -40,25 +42,24 @@ class MemoCaras(Frame):
         self.nome.bind('<Enter>', self.mostra_nome)
         self.nome.bind('<Leave>', self.esconde_nome)
         self.nome.grid(column=1, row=1, sticky=EW)
-        nome_arq_foto = 'turma1-640x480.gif'
-        self.foto = PhotoImage(file=nome_arq_foto)
+        self.foto = PhotoImage(file=NOME_ARQ_FOTO)
         self.canvas.create_image(0, 0, image=self.foto, anchor=NW)
         self.caras = {}
         for nome, bbox in pessoas:
             marca = self.canvas.create_oval(*bbox, outline='green', width=5,
                                     state=HIDDEN)
             self.caras[nome] = marca
+        self.sequencia = []
         self.cara_ativa = None
 
     def proximo(self):
         if self.cara_ativa is not None:
             marca = self.caras[self.cara_ativa]
             self.canvas.itemconfigure(marca, state=HIDDEN)
-        recente = self.cara_ativa
-        while True:
-            self.cara_ativa = choice(self.caras.keys())
-            if recente != self.cara_ativa:
-                break
+        if len(self.sequencia) == 0:
+            self.sequencia = self.caras.keys()
+            shuffle(self.sequencia)
+        self.cara_ativa = self.sequencia.pop()
         marca = self.caras[self.cara_ativa]
         self.canvas.itemconfigure(marca, state=NORMAL)
 
