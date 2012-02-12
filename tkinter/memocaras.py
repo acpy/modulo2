@@ -1,6 +1,6 @@
 # coding: utf-8
 
-from Tkinter import Tk, Canvas, PhotoImage, Frame, NW
+from Tkinter import Tk, Canvas, PhotoImage, Frame, NW, HIDDEN
 from ttk import Button
 
 posicoes = [
@@ -33,6 +33,7 @@ class MarcaFoto(Frame):
         self.foto = PhotoImage(file=nome_arq_foto)
         self.canvas.create_image(0, 0, image=self.foto, anchor=NW)
         self.marca_ativa = None
+        self.caras = []
         
     def proximo(self):
         if self.marca_ativa is None:
@@ -41,8 +42,10 @@ class MarcaFoto(Frame):
             self.marca_ativa += 1
         if self.marca_ativa == len(posicoes):
             self.marca_ativa = 0
-        self.canvas.create_oval(*posicoes[self.marca_ativa],
-            outline='green', width=5)    
+        self.caras.append(self.canvas.create_oval(*posicoes[self.marca_ativa],
+            outline='green', width=5))
+        if len(self.caras) > 1:
+            self.canvas.itemconfigure(self.caras[-2], state=HIDDEN)    
         
 
 root = Tk()
